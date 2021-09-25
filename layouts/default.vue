@@ -3,6 +3,7 @@
     <Navbar />
     <Header />
     <nuxt class="mt-4" />
+    <Cookies />
     <Footer class="mt-4" />
   </div>
 </template>

@@ -1,5 +1,14 @@
 <template>
   <div class="card min-h-screen bg-base-200">
+    <div class="text-center mb-20">
+      <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">Parcours</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+      Parcours
+      </p>
+      <div class="flex mt-6 justify-center">
+        <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+      </div>
+    </div>
     <div class="min-h-screen flex justify-center">
       <div class="w-2/3 mx-auto">
         <div class="flex flex-row w-full">
