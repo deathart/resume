@@ -22,7 +22,6 @@ export default Vue.extend({
   },
   mounted() {
     this.cookies = localStorage.cookies ? JSON.parse(localStorage.cookies) : true;
-    console.log(this.cookies);
   },
   methods: {
     setCookies() {
