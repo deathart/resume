@@ -21,7 +21,7 @@
                 <div class="flex flex-col md:flex-row">
                   <div class="lg:flex-grow md:w-1/2 w-full flex flex-col">
                     <p class="mb-4 text-sm text-gray-600">
-                      CSS/JS/HTML
+                      Languages & Framework
                     </p>
                     <div class="flex justify-between items-center">
                       <span>
@@ -33,7 +33,7 @@
                       <span>
                         CSS
                       </span>
-                      <stars :data="5" />
+                      <stars :data="4" />
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
@@ -43,15 +43,10 @@
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        TS
+                        TypeScript
                       </span>
                       <stars :data="4" />
                     </div>
-                  </div>
-                  <div class="lg:flex-grow md:w-1/2 w-full flex flex-col md:ml-12 ml-0">
-                    <p class="mb-4 text-sm text-gray-600">
-                      Framework & outils
-                    </p>
                     <div class="flex justify-between items-center">
                       <span>
                         Vue.JS & Nuxt
@@ -68,13 +63,48 @@
                       <span>
                         React / Preact
                       </span>
-                      <stars :data="1" />
+                      <stars :data="2" />
                     </div>
+                  </div>
+                  <div class="lg:flex-grow md:w-1/2 w-full flex flex-col md:ml-12 ml-0">
+                    <p class="mb-4 text-sm text-gray-600">
+                      Outils & autres
+                    </p>
                     <div class="flex justify-between items-center">
                       <span>
                         SCSS
                       </span>
                       <stars :data="5" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Electron
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        SEO
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        SEO
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        SEO
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        SEO
+                      </span>
+                      <stars :data="4" />
                     </div>
                   </div>
                 </div>
@@ -102,31 +132,37 @@
                 <div class="flex flex-col md:flex-row">
                   <div class="lg:flex-grow md:w-1/2 w-full flex flex-col">
                     <p class="mb-4 text-sm text-gray-600">
-                      CSS/JS/HTML
+                      Languages
                     </p>
                     <div class="flex justify-between items-center">
                       <span>
-                        HTML
-                      </span>
-                      <stars :data="5" />
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <span>
-                        CSS
-                      </span>
-                      <stars :data="5" />
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <span>
-                        JS
+                        PHP
                       </span>
                       <stars :data="4" />
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        TS
+                        Node.JS
                       </span>
                       <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Python
+                      </span>
+                      <stars :data="1" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        C#
+                      </span>
+                      <stars :data="2" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Lua
+                      </span>
+                      <stars :data="3" />
                     </div>
                   </div>
                   <div class="lg:flex-grow md:w-1/2 w-full flex flex-col md:ml-12 ml-0">
@@ -135,33 +171,146 @@
                     </p>
                     <div class="flex justify-between items-center">
                       <span>
-                        VUE.JS & Nuxt
+                        Symfony
                       </span>
                       <stars :data="4" />
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        Angular 2+
+                        Laravel
+                      </span>
+                      <stars :data="2" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        CodeIgniter
                       </span>
                       <stars :data="4" />
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        REACT
-                      </span>
-                      <stars :data="1" />
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <span>
-                        SCSS
+                        NestJS
                       </span>
                       <stars :data="5" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Rest API
+                      </span>
+                      <stars :data="5" />
+                    </div>
+                  </div>
+                  <div class="lg:flex-grow md:w-1/2 w-full flex flex-col md:ml-12 ml-0">
+                    <p class="mb-4 text-sm text-gray-600">
+                      Base de donnée
+                    </p>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        MongoDB
+                      </span>
+                      <stars :data="3" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        MySQL
+                      </span>
+                      <stars :data="3" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Redis
+                      </span>
+                      <stars :data="2" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        ElasticSearch
+                      </span>
+                      <stars :data="1" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </figure>
+        </div>
+      </div>
+    </section>
+    <section class="card text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20 mt-4">
+      <div class="mx-auto flex px-5 md:flex-row flex-col items-center jobcard">
+        <div class="lg:flex-grow md:w-2/3 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
+          <figure class="visible">
+            <div class="">
+              <div class="pt-10 px-2 sm:px-6">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
+                  Infra & Matériel
+                </h1>
+                <div class="flex flex-col md:flex-row">
+                  <div class="lg:flex-grow md:w-1/2 w-full flex flex-col">
+                    <p class="mb-4 text-sm text-gray-600">
+                      Environnement
+                    </p>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Windows
+                      </span>
+                      <stars :data="5" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Linux (Debian & ubuntu)
+                      </span>
+                      <stars :data="3" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Docker (Kubernetes)
+                      </span>
+                      <stars :data="3" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        OSX
+                      </span>
+                      <stars :data="3" />
+                    </div>
+                  </div>
+                  <div class="lg:flex-grow md:w-1/2 w-full flex flex-col md:ml-12 ml-0">
+                    <p class="mb-4 text-sm text-gray-600">
+                      Outils & autres
+                    </p>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Git (Github & gitlab)
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        CI-CD
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        Scrum (Agile)
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
+                        IDE
+                      </span>
+                      <span>VSCode, PHPStorm</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <div class="lg:max-w-lg md:w-1/3 w-5/6 sm:block hidden">
+          <img class="object-cover object-center rounded" alt="hero" src="~/assets/images/frontendstack.png" />
         </div>
       </div>
     </section>

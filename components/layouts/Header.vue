@@ -1,8 +1,8 @@
 <template>
-  <div class="flex items-center w-full px-4 py-10 bg-cover card bg-base-200" style="background-image: url(&quot;https://www.bretagne-conseil.fr/wp-content/uploads/revslider/splash-creative-light-02-animated/Splash-Creative-Dark-Slider-Background.jpg&quot;);">
+  <div class="flex items-center w-full px-4 py-10 bg-cover card bg-base-200 bg">
     <div class="card glass lg:card-side text-neutral-content">
       <figure class="p-6">
-        <img src="https://deathart.fr/cv/assets/images/pic.jpg" class="rounded-lg shadow-lg">
+        <img src="~/assets/images/pic.jpg" class="rounded-lg shadow-lg">
       </figure>
       <div class="max-w-md card-body">
         <h2 class="card-title">BRABANT Louis</h2>
@@ -15,3 +15,12 @@
     </div>
   </div>
 </template>
+
+<style lang="css">
+.bg {
+  background-image: url('~/assets/images/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
