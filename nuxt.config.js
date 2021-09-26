@@ -52,6 +52,18 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    ['nuxt-mail', {
+      message: { name: 'contact', to: process.env.MAIL_TO },
+      smtp: {
+        host: process.env.MAIL_HOST,
+        port: process.env.MAIL_PORT,
+        secure: true,
+        auth: {
+          user: process.env.MAIL_USER,
+          pass: process.env.MAIL_PASS,
+        }
+      },
+    }],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
