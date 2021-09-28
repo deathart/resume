@@ -15,7 +15,7 @@
     <div class="flex-none hidden lg:block">
       <ul class="menu horizontal">
         <li>
-          <NuxtLink to="/">
+          <NuxtLink exact to="/">
             <v-icon name="lead-pencil" class="mr-2" />
             Compétences
           </NuxtLink>
