@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-10 footer bg-base-200 text-base-content footer-center lg:rounded-t-box">
+  <footer class="p-10 bg-base-200 text-sm gap-y-10 gap-x-4 text-base-content text-center place-items-center lg:rounded-t-box grid grid-flow-row place-items-start w-full">
     <div class="grid grid-flow-col gap-4">
       <NuxtLink to="/" class="link link-hover">Compétences</NuxtLink>
       <NuxtLink to="history" class="link link-hover">Parcours</NuxtLink>

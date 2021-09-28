@@ -2,6 +2,11 @@
   <div class="drawer-side">
     <label ref="clickedSidebar" for="my-drawer-3" class="drawer-overlay"></label>
     <ul class="p-4 overflow-y-auto menu w-80 bg-base-100">
+      <li class="bordered">
+        <span class="text-lg font-bold">
+          BRABANT Louis
+        </span>
+      </li>
       <li @click="onClickButton('/')">
         <a>
           <v-icon name="lead-pencil" class="inline-block w-5 mr-2 stroke-current" />

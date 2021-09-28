@@ -43,12 +43,6 @@
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        TypeScript
-                      </span>
-                      <stars :data="4" />
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <span>
                         Vue.JS & Nuxt
                       </span>
                       <stars :data="4" />
@@ -72,13 +66,19 @@
                     </p>
                     <div class="flex justify-between items-center">
                       <span>
+                        TypeScript
+                      </span>
+                      <stars :data="4" />
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <span>
                         SCSS
                       </span>
                       <stars :data="5" />
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        Electron
+                        WebPack
                       </span>
                       <stars :data="4" />
                     </div>
@@ -90,19 +90,13 @@
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        SEO
+                        Prebid
                       </span>
                       <stars :data="4" />
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        SEO
-                      </span>
-                      <stars :data="4" />
-                    </div>
-                    <div class="flex justify-between items-center">
-                      <span>
-                        SEO
+                        Vuetify
                       </span>
                       <stars :data="4" />
                     </div>
@@ -299,9 +293,8 @@
                     </div>
                     <div class="flex justify-between items-center">
                       <span>
-                        IDE
+                        VSCode, PHPStorm
                       </span>
-                      <span>VSCode, PHPStorm</span>
                     </div>
                   </div>
                 </div>
