@@ -1,5 +1,5 @@
 <template>
-  <span class="mdi" :class="[`mdi-${name}`, `mdi-${size}px`, spin ? 'mdi-spin': '']" :style="{color: color}" />
+  <span :class="['iconify', custom]" :data-icon="getIcon" :style="getStyle" />
 </template>
 
 <script lang="ts">
@@ -12,6 +12,14 @@ export default Vue.extend({
       type: String,
       default: '#ffffff'
     },
+    custom: {
+      type: String,
+      default: ''
+    },
+    logo:  {
+      type: Boolean,
+      default: false
+    },
     name: {
       type: String,
       default: ''
@@ -23,7 +31,21 @@ export default Vue.extend({
     size: {
       type: [Number, String],
       default: 24
+    },
+  },
+  computed: {
+    getStyle() {
+      const style: any = {'font-size': `${this.size}px`};
+
+      if (!this.logo) {
+        style.color = this.color;
+      }
+
+      return style;
+    },
+    getIcon() {
+      return `${this.logo ? 'logos' : 'mdi'}:${this.name}`;
     }
-  }
+	},
 });
 </script>

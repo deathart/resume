@@ -1,10 +1,10 @@
 <template>
-  <div class="flex items-center card glass bg-cover lg:card-side text-neutral-content mt-20 lg:mt-0 mx-4 lg:mx-0 p-4">
-    <figure class="p-6 lg:ml-auto ml-0">
+  <div class="flex flex-col relative items-center rounded-lg glass bg-cover lg:card-side text-neutral-content mt-20 lg:mt-0 mx-4 lg:mx-0 p-4">
+    <!--<figure class="p-6 lg:ml-auto ml-0">
       <img src="~/assets/images/pic.jpg" class="rounded-lg shadow-lg">
     </figure>
-    <div class="max-w-md card-body lg:mr-auto mr-0">
-      <h2 class="card-title">A propos de moi</h2>
+    <div class="max-w-md card-body flex flex-col flex-auto lg:mr-auto mr-0">
+      <h2 class="mb-3 text-xl font-semibold">A propos de moi</h2>
       <ul>
         <li>
           Nom : Brabant Louis
@@ -24,7 +24,7 @@
         Je m'amuse souvent à développer des petits programmes (NODE.JS - Electron) pour me simplifier la vie (Exemple: actualisation automatique de pôle emploi Gestionnaire de tâches automatisé) !
         Je suis toujours en soif de café d'apprendre de nouveau langage ou de m'améliorer.
       </p>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -34,5 +34,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card-body {
+  padding: var(--padding-card, 2rem)
+}
+
+.card-side {
+  align-items: stretch;
+  flex-direction: row;
+
+  & > figure {
+    height: 100%;
+    max-width: none;
+    width: auto;
+    > * {
+      width: auto;
+      max-width: none;
+    }
+  }
 }
 </style>

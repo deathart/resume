@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-base-200 rounded-box p-4 mx-4 lg:mx-0">
+  <div class="bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
     <div class="text-center mb-20">
-      <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none lg:text-6xl">Parcours</h1>
-      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+      <h1 class=" title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none lg:text-6xl text-neutral-content">Parcours</h1>
+      <p class="text-base-content leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
       Parcours
       </p>
       <div class="flex mt-6 justify-center">

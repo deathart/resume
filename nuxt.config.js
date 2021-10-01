@@ -17,15 +17,11 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    {
-      src: '@mdi/font/css/materialdesignicons.min.css'
-    },
     '~/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: ['@/node_modules/@iconify/iconify/dist/iconify.min.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
@@ -33,7 +29,7 @@ export default {
       '~/components',
       '~/components/layouts',
       '~/components/modules'
-    ]
+    ],
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -78,7 +74,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extractCSS: true
+    extractCSS: true,
+    postcss: {
+      plugins: {
+        "postcss-custom-properties": false
+      },
+    },
   },
 
   router: {

@@ -1,15 +1,17 @@
 <template>
-  <div class="bg-base-200 rounded-box p-4 mx-4 lg:mx-0">
+  <div class="bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
     <div class="text-center mb-20">
-      <h1 class="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none lg:text-6xl">Compétences</h1>
-      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+      <h1 class="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none lg:text-6xl text-neutral-content">
+        Compétences
+      </h1>
+      <p class="text-base-content leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
         Attention de prendre en compte que le savoir à 100% n'existe pas.
       </p>
       <div class="flex mt-6 justify-center">
         <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
       </div>
     </div>
-    <section class="card text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20">
+    <section class="rounded-lg flex flex-col relative overflow-hidden text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20">
       <div class="mx-auto flex px-5 lg:flex-row flex-col items-center jobcard">
         <div class="lg:flex-grow lg:w-2/3 lg:pr-24 lg:pr-16 flex flex-col lg:items-start lg:text-left mb-16 lg:mb-0 items-center">
           <figure class="visible">
@@ -111,7 +113,7 @@
         </div>
       </div>
     </section>
-    <section class="card text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20 mt-4">
+    <section class="rounded-lg flex flex-col relative overflow-hidden text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20 mt-4">
       <div class="mx-auto flex px-5 lg:flex-row flex-col items-center jobcard">
         <div class="lg:max-w-lg lg:w-1/3 w-5/6 sm:block hidden">
           <img class="object-cover object-center rounded" alt="hero" src="~/assets/images/frontendstack.png" />
@@ -230,7 +232,7 @@
         </div>
       </div>
     </section>
-    <section class="card text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20 mt-4">
+    <section class="rounded-lg flex flex-col relative overflow-hidden text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20 mt-4">
       <div class="mx-auto flex px-5 lg:flex-row flex-col items-center jobcard">
         <div class="lg:flex-grow lg:w-2/3 lg:pr-24 lg:pr-16 flex flex-col lg:items-start lg:text-left mb-16 lg:mb-0 items-center">
           <figure class="visible">
