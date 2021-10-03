@@ -1,4 +1,25 @@
 export default {
+  /*     // Facebook & LinkedIn
+    { property: "og:title", content: options.title },
+    { property: "og:description", content: options.description },
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: options.url },
+    { property: "og:image", content: options.img },
+    { property: "og:image:width", content: options.img_size.width },
+    { property: "og:image:height", content: options.img_size.height },
+    { property: "og:locale", content: options.locale },
+    { property: "og:site_name", content: options.site_name },
+
+    // Twitter
+    { name: "twitter:card", content: options.twitter_card },
+    { name: "twitter:site", content: options.twitter },
+    { name: "twitter:creator", content: options.twitter },
+    { name: "twitter:title", content: options.title },
+    { name: "twitter:description", content: options.description },
+    { name: "twitter:image", content: options.img },
+    { name: "twitter:image:width", content: options.img_size.width },
+    { name: "twitter:image:height", content: options.img_size.height },
+    */
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Brabant Louis',
@@ -48,6 +69,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/robots',
     ['nuxt-mail', {
       message: { name: 'contact', to: process.env.MAIL_TO },
       smtp: {
@@ -74,7 +96,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extractCSS: true,
     postcss: {
       plugins: {
         "postcss-custom-properties": false
