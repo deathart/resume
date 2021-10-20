@@ -36,12 +36,12 @@
             <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" @click.prevent="send">Envoyer</button>
             <p class="text-xs text-gray-500 mt-3">* Champs obligatoires</p>
           </form>
-          <div class="alert" v-if="loading">
+          <div v-if="loading" class="alert">
             <div class="flex-1 text-gray-100">
               <label class="mx-auto">Envoie en cours</label>
             </div>
           </div>
-          <div class="flex flex-row items-center bg-green-200 p-5 rounded border-b-2 border-green-300" v-if="success">
+          <div v-if="success" class="flex flex-row items-center bg-green-200 p-5 rounded border-b-2 border-green-300">
             <div class="alert-icon md:flex hidden items-center bg-green-100 border-2 border-green-500 justify-center h-10 w-10 flex-shrink-0 rounded-full">
               <span class="text-green-500">
                 <svg fill="currentColor"
@@ -62,7 +62,7 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-row items-center bg-red-200 p-5 rounded border-b-2 border-red-300" v-if="error">
+          <div v-if="error" class="flex flex-row items-center bg-red-200 p-5 rounded border-b-2 border-red-300">
             <div class="alert-icon md:flex hidden items-center bg-red-100 border-2 border-red-500 justify-center h-10 w-10 flex-shrink-0 rounded-full">
               <span class="text-red-500">
                 <svg fill="currentColor"
