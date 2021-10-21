@@ -42,7 +42,7 @@ jobs:
 
       - name: Run linter 👀
         run: npm run lint:js
-  css:
+  style:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -72,5 +72,5 @@ jobs:
         run: npm ci --prefer-offline --no-audit
 
       - name: Run linter 👀
-        run: npm run lint:css
+        run: npm run lint:style
 
