@@ -10,7 +10,7 @@
           </div>
         </span>
       </li>
-      <li class="font-bold" @click="onClickButton('/')">
+      <li class="font-bold" @click="onClickButton('skills')">
         <div class="flex items-center">
           <v-icon name="lead-pencil" class="inline-block w-5 mr-4 stroke-current" />
           Compétences

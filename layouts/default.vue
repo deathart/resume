@@ -4,7 +4,6 @@
     <div class="drawer-content">
       <div class="flex flex-col mx-auto container">
         <Navbar />
-        <Header />
         <nuxt class="mt-4" />
         <Cookies />
         <Footer class="mt-4" />

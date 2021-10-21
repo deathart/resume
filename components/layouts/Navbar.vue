@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row text-neutral-content items-center p-5 lg:p-1 rounded-none lg:rounded-lg justify-between bg-neutral shadow-lg fixed lg:relative z-10 mt-0 lg:mt-4 w-full px-0 lg:px-4 mb-4">
+  <div class="flex flex-row text-neutral-content items-center p-5 lg:p-1 rounded-none lg:rounded-lg justify-between bg-neutral shadow-lg fixed lg:relative z-10 mt-0 lg:mt-4 w-full px-0 lg:px-4 mb-2">
     <div class="ml-8 text-lg flex">BRABANT Louis</div>
     <div class="flex flex-row-reverse mr-4 ml-4 md:hidden">
       <label for="my-drawer-3" class="btn btn-square btn-ghost">
@@ -10,7 +10,7 @@
     </div >
       <div class="flex flex-row mr-8 hidden md:flex">
         <div class="px-4 py-2 m-2">
-          <NuxtLink exact to="/" class="group flex items-center">
+          <NuxtLink exact to="skills" class="group flex items-center">
             <v-icon name="lead-pencil" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
             <span class="text-gray-100 group-hover:text-gray-400">
               Compétences
