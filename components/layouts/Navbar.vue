@@ -12,6 +12,9 @@
     </div >
       <div class="flex flex-row mr-8 hidden md:flex">
         <div class="px-4 py-2 m-2">
+
+        </div>
+        <div class="px-4 py-2 m-2">
           <NuxtLink exact to="skills" class="group flex items-center">
             <v-icon name="lead-pencil" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
             <span class="text-gray-100 group-hover:text-gray-400">
@@ -39,7 +42,7 @@
   </div>
 </template>
 
-<style lang="css" scoped>
+<style lang="postcss" scoped>
 .navbar{
   padding: var(--navbar-padding, .5rem);
   min-height: 4rem;
@@ -49,9 +52,11 @@
   width:50%;
   justify-content: flex-start;
 }
+
 .navbar-center{
   flex-shrink: 0;
 }
+
 .navbar-end{
   width:50%;
   justify-content: flex-end;

@@ -1,7 +1,8 @@
 <template>
-  <footer class="p-10 bg-base-200 text-sm gap-y-10 gap-x-4 text-base-content text-center place-items-center rounded-none lg:rounded-t-lg grid grid-flow-row place-items-start w-full">
+  <footer class="p-10 bg-gray-300 dark:bg-base-200 text-sm gap-y-10 gap-x-4 text-base-300 dark:text-base-content text-center place-items-center rounded-none lg:rounded-t-lg grid grid-flow-row place-items-start w-full">
     <div class="grid grid-flow-col gap-4">
-      <NuxtLink to="/" class="link link-hover">Compétences</NuxtLink>
+      <NuxtLink exact to="/" class="link link-hover">Moi</NuxtLink>
+      <NuxtLink to="skills" class="link link-hover">Compétences</NuxtLink>
       <NuxtLink to="history" class="link link-hover">Parcours</NuxtLink>
       <NuxtLink to="contact" class="link link-hover">Contact</NuxtLink>
     </div>
