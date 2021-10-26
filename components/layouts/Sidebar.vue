@@ -2,7 +2,7 @@
   <div class="drawer-side">
     <label ref="clickedSidebar" for="my-drawer-3" class="drawer-overlay"></label>
     <ul class="p-4 overflow-y-auto menu w-80 bg-base-100 text-gray-100">
-      <li class="text-center">
+      <li class="text-center" @click="onClickButton('/')">
         <span class="title-font text-4xl font-extrabold leading-10 tracking-tight">
           BRABANT Louis
           <div class="flex mt-6 mb-6 justify-center">

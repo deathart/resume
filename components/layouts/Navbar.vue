@@ -1,6 +1,8 @@
 <template>
   <div class="flex flex-row text-neutral-content items-center p-5 lg:p-1 rounded-none lg:rounded-lg justify-between bg-neutral shadow-lg fixed lg:relative z-10 mt-0 lg:mt-4 w-full px-0 lg:px-4 mb-2">
-    <div class="ml-8 text-lg flex">BRABANT Louis</div>
+    <NuxtLink exact to="/">
+      <div class="ml-8 text-lg flex">BRABANT Louis</div>
+    </NuxtLink>
     <div class="flex flex-row-reverse mr-4 ml-4 md:hidden">
       <label for="my-drawer-3" class="btn btn-square btn-ghost">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
