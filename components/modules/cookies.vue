@@ -1,5 +1,5 @@
 <template>
-  <div v-show="cookies" class="max-w-screen-lg mx-auto fixed bg-gray-800 inset-x-5 p-5 bottom-10 rounded-lg drop-shadow-2xl flex gap-4 flex-wrap md:flex-nowrap text-center md:text-left items-center justify-center md:justify-between text-gray-100">
+  <div v-show="cookies" class="max-w-screen-lg mx-auto fixed bg-base-content dark:bg-gray-800 text-base-200 dark:text-gray-100 inset-x-5 p-5 bottom-10 rounded-lg drop-shadow-2xl flex gap-4 flex-wrap md:flex-nowrap text-center md:text-left items-center justify-center md:justify-between">
     <div class="w-full">
       Ce site n'utilise pas de cookies, mais je trouve amusant de voir que vous en avez l'habitude.
       <a href="https://www.750g.com/cookies-aux-pepites-de-chocolat-r89377.htm" target="_blank" class="text-indigo-600 whitespace-nowrap hover:underline">Recette de cookies</a>

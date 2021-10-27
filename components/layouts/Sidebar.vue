@@ -1,7 +1,7 @@
 <template>
   <div class="drawer-side">
     <label ref="clickedSidebar" for="my-drawer-3" class="drawer-overlay"></label>
-    <ul class="p-4 overflow-y-auto menu w-80 bg-base-100 text-gray-100">
+    <ul class="p-4 overflow-y-auto menu w-80 bg-base-content dark:bg-base-100 text-base-200 dark:text-gray-100">
       <li class="text-center" @click="onClickButton('/')">
         <span class="title-font text-4xl font-extrabold leading-10 tracking-tight">
           BRABANT Louis
@@ -12,19 +12,19 @@
       </li>
       <li class="font-bold" @click="onClickButton('skills')">
         <div class="flex items-center">
-          <v-icon name="lead-pencil" class="inline-block w-5 mr-4 stroke-current" />
+          <v-icon name="lead-pencil" class="inline-block w-5 mr-4" custom="text-base-200 dark:text-gray-100" />
           Compétences
         </div>
       </li>
       <li class="font-bold mt-4" @click="onClickButton('history')">
         <div class="flex items-center">
-          <v-icon name="history" class="inline-block w-5 mr-4 stroke-current" />
+          <v-icon name="history" class="inline-block w-5 mr-4" custom="text-base-200 dark:text-gray-100" />
           Parcours
         </div>
       </li>
       <li class="font-bold mt-4" @click="onClickButton('contact')">
         <div class="flex items-center">
-          <v-icon name="card-account-mail" class="inline-block w-5 mr-4 stroke-current" />
+          <v-icon name="card-account-mail" class="inline-block w-5 mr-4" custom="text-base-200 dark:text-gray-100" />
           Contact
         </div>
       </li>
