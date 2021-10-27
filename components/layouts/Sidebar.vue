@@ -28,6 +28,14 @@
           Contact
         </div>
       </li>
+      <li>
+          <div class="flex mt-6 mb-6 justify-center">
+            <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+          </div>
+          <div class="flex justify-center">
+            <darkmode />
+          </div>
+      </li>
     </ul>
   </div>
 </template>

@@ -12,10 +12,10 @@
     </div >
       <div class="flex flex-row mr-8 hidden md:flex">
         <div class="px-4 py-2 m-2">
-
+          <darkmode />
         </div>
         <div class="px-4 py-2 m-2">
-          <NuxtLink exact to="skills" class="group flex items-center">
+          <NuxtLink exact to="skills" class="group inline-flex items-center justify-between px-2 py-1">
             <v-icon name="lead-pencil" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
             <span class="text-gray-100 group-hover:text-gray-400">
               Compétences
@@ -23,7 +23,7 @@
           </NuxtLink>
         </div>
         <div class="px-4 py-2 m-2">
-          <NuxtLink exact to="history" class="group flex items-center">
+          <NuxtLink exact to="history" class="group inline-flex items-center justify-between px-2 py-1">
             <v-icon name="history" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
             <span class="text-gray-100 group-hover:text-gray-400">
               Parcours
@@ -31,7 +31,7 @@
           </NuxtLink>
         </div>
         <div class="px-4 py-2 m-2">
-          <NuxtLink exact to="contact" class="group flex items-center">
+          <NuxtLink exact to="contact" class="group inline-flex items-center justify-between px-2 py-1">
             <v-icon name="card-account-mail" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
             <span class="text-gray-100 group-hover:text-gray-400">
               Contact
