@@ -25,16 +25,22 @@ export default Vue.extend({
       toggleActive: false
     }
   },
-  mounted() {
-    this.toggleActive = this.$colorMode.value === 'dark';
-    if (!this.toggleActive && this.$colorMode.value === 'system') {
-      this.changeTheme();
+  watch: {
+    $route() {
+      this.toggleActive = !!(localStorage.getItem('colorMode') && localStorage.getItem('colorMode') as string === 'dark');
+      this.$colorMode.value = localStorage.getItem('colorMode') ? localStorage.getItem('colorMode') as string : 'dark';
     }
+  },
+  mounted() {
+    this.toggleActive = !!(localStorage.getItem('colorMode') && localStorage.getItem('colorMode') as string === 'dark');
+    this.$colorMode.value = localStorage.getItem('colorMode') ? localStorage.getItem('colorMode') as string : 'dark';
+    console.log(this.$colorMode.value)
   },
   methods: {
     changeTheme () {
       this.toggleActive = !this.toggleActive;
       this.$colorMode.value = this.toggleActive ? 'dark' : 'light';
+      localStorage.setItem('colorMode', this.toggleActive ? 'dark' : 'light');
     }
   }
 })

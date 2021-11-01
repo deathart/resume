@@ -17,6 +17,10 @@
 import Vue from 'vue'
 
 export default Vue.extend({
+  mounted () {
+    console.log('mounted');
+    this.$colorMode.value = localStorage.getItem('colorMode') ? localStorage.getItem('colorMode') as string : 'dark';
+  }
 })
 </script>
 

@@ -111,6 +111,8 @@ export default {
   },
 
   colorMode: {
-    classSuffix: ''
+    classSuffix: '',
+    preference: 'dark',
+    storageKey: 'nuxt-color-mode'
   }
 }

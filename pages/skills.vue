@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
+  <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
     <div class="text-center mb-20">
-      <h1 class="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight lg:leading-none lg:text-6xl text-neutral-content">
+      <h1 class="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight lg:leading-none lg:text-6xl text-base-300 dark:text-neutral-content">
         Compétences
       </h1>
       <p class="text-base-content leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">

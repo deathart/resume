@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row text-neutral-content items-center p-5 lg:p-1 rounded-none lg:rounded-lg justify-between bg-neutral shadow-lg fixed lg:relative z-10 mt-0 lg:mt-4 w-full px-0 lg:px-4 mb-2">
+  <div class="flex flex-row text-base-300 dark:text-base-content items-center p-5 lg:p-1 rounded-none lg:rounded-lg justify-between bg-gray-300 dark:bg-base-200 shadow-lg fixed lg:relative z-10 mt-0 lg:mt-4 w-full px-0 lg:px-4 mb-2">
     <NuxtLink exact to="/">
       <div class="ml-8 text-lg flex">BRABANT Louis</div>
     </NuxtLink>
@@ -16,24 +16,24 @@
         </div>
         <div class="px-4 py-2 m-2">
           <NuxtLink exact to="skills" class="group inline-flex items-center justify-between px-2 py-1">
-            <v-icon name="lead-pencil" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
-            <span class="text-gray-100 group-hover:text-gray-400">
+            <v-icon name="lead-pencil" class="mr-2" custom="text-base-300 dark:text-base-content group-hover:text-gray-400" color="" />
+            <span class="text-base-300 dark:text-base-content group-hover:text-gray-400">
               Compétences
             </span>
           </NuxtLink>
         </div>
         <div class="px-4 py-2 m-2">
           <NuxtLink exact to="history" class="group inline-flex items-center justify-between px-2 py-1">
-            <v-icon name="history" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
-            <span class="text-gray-100 group-hover:text-gray-400">
+            <v-icon name="history" class="mr-2" custom="group-hover:text-gray-400" color="" />
+            <span class="text-base-300 dark:text-base-content group-hover:text-gray-400">
               Parcours
             </span>
           </NuxtLink>
         </div>
         <div class="px-4 py-2 m-2">
           <NuxtLink exact to="contact" class="group inline-flex items-center justify-between px-2 py-1">
-            <v-icon name="card-account-mail" class="mr-2" custom="text-gray-100 group-hover:text-gray-400" color="" />
-            <span class="text-gray-100 group-hover:text-gray-400">
+            <v-icon name="card-account-mail" class="mr-2" custom="text-base-300 dark:text-base-content group-hover:text-gray-400" color="" />
+            <span class="text-base-300 dark:text-base-content group-hover:text-gray-400">
               Contact
             </span>
           </NuxtLink>
