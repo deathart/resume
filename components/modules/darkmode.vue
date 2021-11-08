@@ -5,8 +5,8 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     </span>
-    <div :class="{ 'bg-indigo-500': toggleActive}" class="w-14 h-7 flex items-center bg-gray-300 rounded-full mx-3 px-1" @click="changeTheme()">
-      <div class="bg-white w-5 h-5 rounded-full shadow-md transform" :class="{ 'translate-x-7': toggleActive}"></div>
+    <div :class="{ 'bg-indigo-500': $colorMode.value === 'dark', 'bg-indigo-100': $colorMode.value !== 'dark'}" class="w-14 h-7 flex items-center bg-gray-300 rounded-full mx-3 px-1" @click="changeTheme()">
+      <div class="bg-white w-5 h-5 rounded-full shadow-md transform" :class="{ 'translate-x-7': $colorMode.value === 'dark'}"></div>
     </div>
     <span class="">
       <svg class="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -20,27 +20,10 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  data() {
-    return {
-      toggleActive: false
-    }
-  },
-  watch: {
-    $route() {
-      this.toggleActive = !!(localStorage.getItem('colorMode') && localStorage.getItem('colorMode') as string === 'dark');
-      this.$colorMode.value = localStorage.getItem('colorMode') ? localStorage.getItem('colorMode') as string : 'dark';
-    }
-  },
-  mounted() {
-    this.toggleActive = !!(localStorage.getItem('colorMode') && localStorage.getItem('colorMode') as string === 'dark');
-    this.$colorMode.value = localStorage.getItem('colorMode') ? localStorage.getItem('colorMode') as string : 'dark';
-    console.log(this.$colorMode.value)
-  },
   methods: {
     changeTheme () {
-      this.toggleActive = !this.toggleActive;
-      this.$colorMode.value = this.toggleActive ? 'dark' : 'light';
-      localStorage.setItem('colorMode', this.toggleActive ? 'dark' : 'light');
+      this.$colorMode.value = this.$colorMode.value === 'light' ? 'dark' : 'light';
+      this.$colorMode.preference = this.$colorMode.value;
     }
   }
 })
