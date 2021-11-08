@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
+  <div class="bg-gray-300 dark:bg-base-200 rounded-none md:rounded-lg p-4 w-full">
     <div class="text-center mb-20">
       <h1 class="title-font mb-4 text-4xl font-extrabold leading-10 tracking-tight lg:leading-none lg:text-6xl text-base-300 dark:text-neutral-content">
         Qui suis-je ?

@@ -13,17 +13,6 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  mounted () {
-    console.log('mounted');
-    this.$colorMode.value = localStorage.getItem('colorMode') ? localStorage.getItem('colorMode') as string : 'dark';
-  }
-})
-</script>
-
 <style lang="css">
 .bg {
   background-image: url('~/assets/images/bg.jpg');
