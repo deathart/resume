@@ -12,7 +12,6 @@
       </div>
     </div>
     <section class="rounded-lg flex flex-col relative overflow-hidden text-indigo-200 body-font p-5 bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-20">
-
     </section>
   </div>
 </template>
