@@ -7,7 +7,8 @@
         flex flex-col
         relative
         overflow-hidden
-        text-indigo-200
+        dark:text-indigo-200
+        text-indigo-700
         body-font
         p-5
         bg-gray-900

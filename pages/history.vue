@@ -2,187 +2,299 @@
   <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
     <HeadText title="Parcours" content="De mon premier stage à maintenant" />
     <div class="min-h-screen flex justify-center">
-      <div class="lg:w-2/3 w-full mx-auto">
-        <div class="flex flex-col lg:flex-row w-full">
-          <div class="lg:w-2/5 w-full px-2 py-10 lg:order-1 order-2">
-            <div
-              class="
-                flex flex-col
-                w-full
-                bg-gray-600
-                rounded-lg
-                shadow
-                px-4
-                py-5
-              "
-            >
-              <div class="mb-2 flex justify-between">
-                <div class="font-bold">Cerise Media (Front-End)</div>
-              </div>
-              <div class="">
-                <ul>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Conception de
-                    micro service en Angular 2+
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    publicité
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Maintenance des
-                    services web
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    2 refontes
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Conception de
-                    micro service en Angular 2+
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    publicité
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Maintenance des
-                    services web
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    2 refontes
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="w-1/5 justify-center flex lg:order-2 order-1 mx-auto">
-            <div
-              class="
-                relative
-                flex
-                h-full
-                w-1
-                bg-gray-600
-                items-center
-                justify-center
-              "
-            >
+      <div class="relative w-1/2 m-8">
+        <div
+          class="
+            border-r-2 border-indigo-700
+            dark:border-indigo-200
+            absolute
+            h-full
+            top-0
+          "
+          style="left: 15px"
+        ></div>
+        <ul class="list-none m-0 p-0">
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
               <div
                 class="
-                  absolute
-                  flex-col
-                  justify-center
-                  h-24
-                  w-24
-                  rounded-full
-                  border-2 border-gray-600
-                  leading-none
-                  text-center
-                  z-10
-                  bg-base-200
-                  font-thin
-                  flex
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
                 "
               >
-                <div>Juin 2019</div>
-                <div>Maintenant</div>
+                Oct 2017 - First Release
               </div>
             </div>
-          </div>
-          <div class="w-2/5 px-2 py-10 order-3 hidden lg:block"></div>
-        </div>
-        <div class="flex flex-col lg:flex-row w-full lg:mt-0 mt-14">
-          <div class="lg:w-2/5 w-full px-2 py-10 lg:order-3 order-2">
-            <div
-              class="
-                flex flex-col
-                w-full
-                bg-gray-600
-                rounded-lg
-                shadow
-                px-4
-                py-5
-              "
-            >
-              <div class="mb-2 flex justify-between">
-                <div class="font-bold">Cerise Media (Front-End)</div>
-              </div>
-              <div class="">
-                <ul>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Conception de
-                    micro service en Angular 2+
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    publicité
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Maintenance des
-                    services web
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    2 refontes
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Conception de
-                    micro service en Angular 2+
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    publicité
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Maintenance des
-                    services web
-                  </li>
-                  <li>
-                    <v-icon name="arrow-right-bold" size="12" /> Intégration de
-                    2 refontes
-                  </li>
-                </ul>
-              </div>
+            <div class="ml-12 dark:text-neutral-content">
+              First release of Tailwind CSS
             </div>
-          </div>
-          <div class="w-1/5 justify-center flex lg:order-2 order-1 mx-auto">
-            <div
-              class="
-                relative
-                flex
-                h-full
-                w-1
-                bg-gray-600
-                items-center
-                justify-center
-              "
-            >
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
               <div
                 class="
-                  absolute
-                  flex-col
-                  justify-center
-                  h-24
-                  w-24
-                  rounded-full
-                  border-2 border-gray-600
-                  leading-none
-                  text-center
-                  z-10
-                  bg-base-200
-                  font-thin
-                  flex
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
                 "
               >
-                <div>Juin 2019</div>
-                <div>Maintenant</div>
+                Nov 2017 - Multiple Releases
               </div>
             </div>
-          </div>
-          <div class="w-2/5 px-2 py-10 order-1 hidden lg:block"></div>
-        </div>
+            <div class="ml-12 dark:text-neutral-content">v0.1.0 - v0.2.2</div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                Feb 2018 - Other stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              perspiciatis facilis deserunt excepturi sunt pariatur consequuntur
+              eveniet molestias ea quia? Magni veniam illo optio tempora modi
+              exercitationem qui adipisci ex.
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+          <li class="mb-2">
+            <div class="flex items-center mb-1">
+              <div
+                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+              ></div>
+              <div
+                class="
+                  flex-1
+                  ml-4
+                  font-medium
+                  text-indigo-700
+                  dark:text-indigo-200
+                "
+              >
+                July 2018 - More stuff happened
+              </div>
+            </div>
+            <div class="ml-12 dark:text-neutral-content">
+              Consequuntur odit explicabo officiis veniam incidunt non velit ex
+              consectetur magnam minima vero hic impedit cumque, blanditiis
+              autem distinctio facere dolor atque facilis, eos, labore sunt
+              iusto. Beatae, quas, dolorem?
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
