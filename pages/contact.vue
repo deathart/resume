@@ -19,16 +19,16 @@
         <div
           class="
             lg:w-1/3
-            md:w-1/2
+            sm:w-1/2
             bg-gray-300
             dark:bg-base-200
             rounded-lg
             p-8
             flex flex-col
-            md:ml-auto
+            sm:ml-auto
             w-full
             mt-10
-            md:mt-0
+            sm:mt-0
             relative
             z-10
             shadow-md
@@ -196,7 +196,7 @@
             <div
               class="
                 alert-icon
-                md:flex
+                sm:flex
                 hidden
                 items-center
                 bg-green-100
@@ -241,7 +241,7 @@
             <div
               class="
                 alert-icon
-                md:flex
+                sm:flex
                 hidden
                 items-center
                 bg-red-100

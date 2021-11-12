@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="bg-gray-300 dark:bg-base-200 rounded-none md:rounded-lg p-4 w-full"
-  >
+  <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 sm:mx-0">
     <HeadText title="Qui suis-je ?" content="Bref description de moi" />
     <section
       class="
@@ -9,12 +7,10 @@
         flex flex-col
         relative
         overflow-hidden
-        text-base-300
-        dark:text-indigo-200
+        text-indigo-200
         body-font
         p-5
-        bg-indigo-300
-        dark:bg-gray-900
+        bg-gray-900
         backdrop-filter backdrop-blur-lg
         bg-opacity-20
       "

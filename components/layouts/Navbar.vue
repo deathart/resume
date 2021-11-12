@@ -2,21 +2,20 @@
   <div
     class="
       flex flex-row
-      text-base-300
+      text-indigo-700
       dark:text-base-content
-      hover:text-gray-400
       items-center
       p-5
       md:p-1
       rounded-none
-      md:rounded-b-lg
+      sm:rounded-b-lg
       lg:rounded-lg
       justify-between
       bg-gray-300
       dark:bg-base-200
       shadow-lg
       fixed
-      md:relative
+      sm:relative
       z-10
       mt-0
       lg:mt-4
@@ -27,7 +26,17 @@
     "
   >
     <NuxtLink exact to="/">
-      <div class="ml-8 text-lg flex hover:text-gray-400">BRABANT Louis</div>
+      <div
+        class="
+          ml-8
+          text-lg
+          font-semibold
+          hover:text-indigo-500
+          dark:hover:text-indigo-200
+        "
+      >
+        BRABANT Louis
+      </div>
     </NuxtLink>
     <div class="flex flex-row-reverse mx-4 md:hidden">
       <label for="my-drawer-3" class="btn btn-square btn-ghost">
@@ -46,7 +55,7 @@
         </svg>
       </label>
     </div>
-    <div class="flex flex-row mr-8 hidden md:flex">
+    <div class="flex flex-row mr-8 hidden md:flex font-medium">
       <div class="p-2 my-2">
         <darkmode />
       </div>
@@ -59,15 +68,14 @@
           <v-icon
             name="lead-pencil"
             class="mr-2"
-            custom="text-base-300 dark:text-base-content group-hover:text-gray-400"
+            custom="
+              group-hover:text-indigo-500
+              dark:group-hover:text-indigo-200
+            "
             color=""
           />
           <span
-            class="
-              text-base-300
-              dark:text-base-content
-              group-hover:text-gray-400
-            "
+            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
           >
             Compétences
           </span>
@@ -82,15 +90,11 @@
           <v-icon
             name="history"
             class="mr-2"
-            custom="group-hover:text-gray-400"
+            custom="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
             color=""
           />
           <span
-            class="
-              text-base-300
-              dark:text-base-content
-              group-hover:text-gray-400
-            "
+            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
           >
             Parcours
           </span>
@@ -105,15 +109,11 @@
           <v-icon
             name="card-account-mail"
             class="mr-2"
-            custom="text-base-300 dark:text-base-content group-hover:text-gray-400"
+            custom="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
             color=""
           />
           <span
-            class="
-              text-base-300
-              dark:text-base-content
-              group-hover:text-gray-400
-            "
+            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
           >
             Contact
           </span>

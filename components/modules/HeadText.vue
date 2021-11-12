@@ -9,13 +9,23 @@
         leading-10
         tracking-tight
         lg:leading-none lg:text-6xl
-        text-base-300
-        dark:text-neutral-content
+        text-indigo-700
+        dark:text-indigo-200
       "
     >
       {{ title }}
     </h1>
-    <p class="text-base-content leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+    <p
+      class="
+        leading-relaxed
+        xl:w-2/4
+        lg:w-3/4
+        mx-auto
+        font-semibold
+        text-base-300
+        dark:text-neutral-content
+      "
+    >
       {{ content }}
     </p>
     <div class="flex mt-6 justify-center">
