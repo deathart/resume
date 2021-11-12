@@ -59,8 +59,10 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    // https://color-mode.nuxtjs.org/
+    '@nuxtjs/color-mode',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -106,5 +108,16 @@ export default {
   router: {
     linkActiveClass: 'active',
     linkExactActiveClass: 'active',
+  },
+
+  colorMode: {
+    classSuffix: '',
+    preference: 'dark',
+    storageKey: 'nuxt-color-mode'
+  },
+
+  robots: {
+    UserAgent: '*', // @todo: changeme
+    Disallow: '/'
   }
 }

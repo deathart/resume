@@ -1,5 +1,5 @@
 <template>
-  <span :class="['iconify', custom]" :data-icon="getIcon" :style="getStyle" />
+  <span :class="['iconify', custom]" :data-icon="getIcon" :style="getStyle" :data-rotate="rotate" />
 </template>
 
 <script lang="ts">
@@ -32,6 +32,10 @@ export default Vue.extend({
       type: [Number, String],
       default: 24
     },
+    rotate: {
+      type: [String],
+      default: ''
+    }
   },
   computed: {
     getStyle() {
