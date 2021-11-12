@@ -114,5 +114,10 @@ export default {
     classSuffix: '',
     preference: 'dark',
     storageKey: 'nuxt-color-mode'
+  },
+
+  robots: {
+    UserAgent: '*', // @todo: changeme
+    Disallow: '/'
   }
 }
