@@ -1,6 +1,9 @@
 <template>
   <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
-    <HeadText title="Compétences" content="Attention de prendre en compte que le savoir à 100% n'existe pas." />
+    <HeadText
+      title="Compétences"
+      content="Attention de prendre en compte que le savoir à 100% n'existe pas."
+    />
     <section
       class="
         rounded-lg
@@ -115,7 +118,7 @@
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="~/assets/images/frontendstack.png"
+            src="/frontendstack.png"
           />
         </div>
       </div>
@@ -150,7 +153,7 @@
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="~/assets/images/frontendstack.png"
+            src="/frontendstack.png"
           />
         </div>
         <div
@@ -358,7 +361,7 @@
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="~/assets/images/frontendstack.png"
+            src="/frontendstack.png"
           />
         </div>
       </div>

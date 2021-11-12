@@ -1,6 +1,6 @@
 <template>
   <div class="drawer bg">
-    <input id="my-drawer-3" type="checkbox" class="drawer-toggle">
+    <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content">
       <div class="flex flex-col mx-auto container">
         <Navbar />
@@ -9,13 +9,13 @@
         <Footer class="mt-4" />
       </div>
     </div>
-    <Sidebar/>
+    <Sidebar />
   </div>
 </template>
 
 <style lang="css">
 .bg {
-  background-image: url('~/assets/images/bg.jpg');
+  background-image: url('/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
