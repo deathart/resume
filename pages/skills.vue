@@ -2,7 +2,7 @@
   <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
     <HeadText
       title="Compétences"
-      content="Attention de prendre en compte que le savoir à 100% n'existe pas."
+      content="Compétences aquise au fil du temps"
     />
     <section
       class="

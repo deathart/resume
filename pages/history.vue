@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
-    <HeadText title="Parcours" content="Lorem ipsum" />
+    <HeadText title="Parcours" content="De mon premier stage à maintenant" />
     <div class="min-h-screen flex justify-center">
       <div class="lg:w-2/3 w-full mx-auto">
         <div class="flex flex-col lg:flex-row w-full">

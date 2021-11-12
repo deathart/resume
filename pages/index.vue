@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 sm:mx-0">
-    <HeadText title="Qui suis-je ?" content="Bref description de moi" />
+    <HeadText title="Qui suis-je ?" content="Ma vie, mes loisirs, etc..." />
     <section
       class="
         rounded-lg

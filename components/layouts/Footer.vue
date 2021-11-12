@@ -5,8 +5,9 @@
       bg-gray-300
       dark:bg-base-200
       text-sm
+      font-semibold
       gap-y-10 gap-x-4
-      text-base-300
+      text-indigo-700
       dark:text-base-content
       text-center
       place-items-center
@@ -18,10 +19,27 @@
     "
   >
     <div class="grid grid-flow-col gap-4">
-      <NuxtLink exact to="/" class="link link-hover">Moi</NuxtLink>
-      <NuxtLink to="skills" class="link link-hover">Compétences</NuxtLink>
-      <NuxtLink to="history" class="link link-hover">Parcours</NuxtLink>
-      <NuxtLink to="contact" class="link link-hover">Contact</NuxtLink>
+      <NuxtLink
+        exact
+        to="/"
+        class="hover:text-indigo-500 dark:hover:text-indigo-200"
+        >Moi</NuxtLink
+      >
+      <NuxtLink
+        to="skills"
+        class="group-hover:text-indigo-500 dark:hover:text-indigo-200"
+        >Compétences</NuxtLink
+      >
+      <NuxtLink
+        to="history"
+        class="hover:text-indigo-500 dark:hover:text-indigo-200"
+        >Parcours</NuxtLink
+      >
+      <NuxtLink
+        to="contact"
+        class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
+        >Contact</NuxtLink
+      >
     </div>
     <div>
       <div class="grid grid-flow-col gap-4">
@@ -40,7 +58,10 @@
       </div>
     </div>
     <div>
-      <p>Copyright © 2021 - All right reserved by BRABANT Louis</p>
+      <p>
+        <strong>Copyright © 2021</strong> - All right reserved by
+        <strong>BRABANT Louis</strong>
+      </p>
     </div>
   </footer>
 </template>

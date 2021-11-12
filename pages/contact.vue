@@ -1,6 +1,9 @@
 <template>
   <div class="bg-gray-300 dark:bg-base-200 rounded-lg p-4 mx-4 lg:mx-0">
-    <HeadText title="Contact" content="Lorem ispum" />
+    <HeadText
+      title="Contact"
+      content="N'hésitez pas à me laisser votre numéro de téléphone pour que je puisse vous recontacter !"
+    />
     <section class="text-gray-600 body-font relative">
       <div class="absolute inset-0 bg-gray-300 rounded-lg">
         <iframe
