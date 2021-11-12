@@ -6,7 +6,7 @@
         <div
           class="
             border-r-2 border-indigo-700
-            dark:border-indigo-200
+            dark:border-indigo-300
             absolute
             h-full
             top-0
@@ -17,7 +17,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -25,7 +25,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 Oct 2017 - First Release
@@ -38,7 +38,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -46,7 +46,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 Nov 2017 - Multiple Releases
@@ -57,7 +57,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -65,7 +65,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 Feb 2018 - Other stuff happened
@@ -81,7 +81,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -89,7 +89,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -105,7 +105,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -113,7 +113,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -129,7 +129,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -137,7 +137,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -153,7 +153,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -161,7 +161,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -177,7 +177,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -185,7 +185,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -201,7 +201,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -209,7 +209,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -225,7 +225,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -233,7 +233,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -249,7 +249,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -257,7 +257,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened
@@ -273,7 +273,7 @@
           <li class="mb-2">
             <div class="flex items-center mb-1">
               <div
-                class="bg-indigo-700 dark:bg-indigo-200 rounded-full h-8 w-8"
+                class="bg-indigo-700 dark:bg-indigo-300 rounded-full h-8 w-8"
               ></div>
               <div
                 class="
@@ -281,7 +281,7 @@
                   ml-4
                   font-medium
                   text-indigo-700
-                  dark:text-indigo-200
+                  dark:text-indigo-300
                 "
               >
                 July 2018 - More stuff happened

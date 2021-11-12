@@ -10,7 +10,7 @@
         tracking-tight
         lg:leading-none lg:text-6xl
         text-indigo-700
-        dark:text-indigo-200
+        dark:text-indigo-300
       "
     >
       {{ title }}
@@ -23,7 +23,7 @@
         mx-auto
         font-semibold
         text-base-300
-        dark:text-neutral-content
+        dark:text-indigo-100
       "
     >
       {{ content }}

@@ -32,7 +32,7 @@
           text-lg
           font-semibold
           hover:text-indigo-500
-          dark:hover:text-indigo-200
+          dark:hover:text-indigo-300
         "
       >
         BRABANT Louis
@@ -70,12 +70,12 @@
             class="mr-2"
             custom="
               group-hover:text-indigo-500
-              dark:group-hover:text-indigo-200
+              dark:group-hover:text-indigo-300
             "
             color=""
           />
           <span
-            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
+            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-300"
           >
             Compétences
           </span>
@@ -90,11 +90,11 @@
           <v-icon
             name="history"
             class="mr-2"
-            custom="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
+            custom="group-hover:text-indigo-500 dark:group-hover:text-indigo-300"
             color=""
           />
           <span
-            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
+            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-300"
           >
             Parcours
           </span>
@@ -109,11 +109,11 @@
           <v-icon
             name="card-account-mail"
             class="mr-2"
-            custom="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
+            custom="group-hover:text-indigo-500 dark:group-hover:text-indigo-300"
             color=""
           />
           <span
-            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
+            class="group-hover:text-indigo-500 dark:group-hover:text-indigo-300"
           >
             Contact
           </span>

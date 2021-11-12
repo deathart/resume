@@ -10,7 +10,7 @@
         flex flex-col
         relative
         overflow-hidden
-        text-indigo-200
+        text-indigo-300
         body-font
         p-5
         bg-gray-900
@@ -129,7 +129,7 @@
         flex flex-col
         relative
         overflow-hidden
-        text-indigo-200
+        text-indigo-300
         body-font
         p-5
         bg-gray-900
@@ -262,7 +262,7 @@
         flex flex-col
         relative
         overflow-hidden
-        text-indigo-200
+        text-indigo-300
         body-font
         p-5
         bg-gray-900

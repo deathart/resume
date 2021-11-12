@@ -22,22 +22,22 @@
       <NuxtLink
         exact
         to="/"
-        class="hover:text-indigo-500 dark:hover:text-indigo-200"
+        class="hover:text-indigo-500 dark:hover:text-indigo-300"
         >Moi</NuxtLink
       >
       <NuxtLink
         to="skills"
-        class="group-hover:text-indigo-500 dark:hover:text-indigo-200"
+        class="group-hover:text-indigo-500 dark:hover:text-indigo-300"
         >Compétences</NuxtLink
       >
       <NuxtLink
         to="history"
-        class="hover:text-indigo-500 dark:hover:text-indigo-200"
+        class="hover:text-indigo-500 dark:hover:text-indigo-300"
         >Parcours</NuxtLink
       >
       <NuxtLink
         to="contact"
-        class="group-hover:text-indigo-500 dark:group-hover:text-indigo-200"
+        class="group-hover:text-indigo-500 dark:group-hover:text-indigo-300"
         >Contact</NuxtLink
       >
     </div>
